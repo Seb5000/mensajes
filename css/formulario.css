@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background: rgba(200,200,200,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 30rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4rem;
+}
+
+#titulo{
+    position: relative;
+    height: 10%;
+    margin: 5px 0px;
+}
+
+.conf{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 90%;
+    height: 100%;
+    top: px;
+    position: relative;
+}
+
+.entrada{
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.etiqueta{
+    margin: 5px 10px;
+    font-size: 20px;
+}
+
+.areatexto {
+    height: 150px;
+    
+    font-size: 16px;
+    resize: none;
+    
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
